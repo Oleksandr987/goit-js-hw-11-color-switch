@@ -16,7 +16,7 @@ const refs = {
   stop: document.querySelector('button[data-action="stop"]'),
 };
 
-const getColor = (colors) => {
+const getColor = () => {
   const variableColor = randomIntegerFromInterval(0, colors.length - 1);
   refs.body.style.backgroundColor = colors[variableColor];
 };
